@@ -1,0 +1,76 @@
+.SideNav{
+    margin-top: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+#SideNav-name{
+    font-weight: 300;
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 2px 2px 8px #021758;
+    padding-bottom: 1.1em;
+    padding-top: 1.1em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    width: 80%;
+    align-self: center;  
+}
+
+#SideNav-name i{
+    font-size: 1.1em;
+    margin-right: 0.3em;
+}
+
+.SideNav-links a{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: 0;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 1.5em;
+    text-align: start;
+    justify-self: start;
+ }
+
+
+ .SideNav-links i{
+     color: white;
+     font-size: 1.4em;
+     margin-right: 0.5em;   
+ }
+
+.SideNav-date{
+    margin-top: 2em;
+}
+
+ .SideNav-links{
+     display: flex;
+     flex-direction: column;
+     margin-top: 3em;
+     width: 100%; 
+ }
+
+ #SideNav-add {
+    margin-left: 0.5em;
+ }
+
+ #Navbar-select svg{
+    display: none;
+ }
+
+ #Navbar-select{
+    width: 100%;
+    font-weight: 100;
+    font-size: 1.4em;
+    color: white;
+    justify-self: center;
+ }
+  
+ .selected{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(54, 81, 133, 0.3);
+    box-shadow: 0px 4px 11px -5px #3e69a1de;
+ }
+

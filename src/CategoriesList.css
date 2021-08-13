@@ -1,0 +1,104 @@
+.container{
+    height: 85vh;
+    padding-top: 15vh;
+    width: 100%;
+}
+
+.CategoriesList{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    height: 65%;
+    align-items: flex-start;
+    justify-content: center;  
+}
+
+.CategoriesList-list{
+    box-shadow: 0px 1px 11px 0px #00406333;
+    overflow: scroll;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.911);
+}
+
+.CategoriesList ul{
+    width: 85%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin:0 auto;
+    margin-top: 1.2em;
+    margin-bottom: 2.5em; 
+}
+
+.CategoriesList-form{   
+    box-shadow: 10px 10px 11px -8px rgba(0,0,0,0.55);
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.CategoriesList-form form{
+    display:flex;
+    padding:5px;
+    width: 80%;
+    margin:20px auto; 
+}
+
+.CategoriesList-form button{
+    align-self: center;
+    justify-self: end;
+    width: 5%;
+}
+
+
+.CategoriesList-alert{
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+    0% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0% { opacity: 1; }
+}
+  
+.CategoriesList input{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    outline:none;
+    padding:0px 40px 0px 20px;
+    font-size: 1.2em;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.137);
+    color: white;
+    box-shadow: 10px 10px 11px -8px rgba(0,0,0,0.15);
+}
+
+.CategoriesList input::placeholder{
+    color: white;
+}
+
+.CategoriesList input:focus{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: white;
+    color: rgba(0, 0, 0, 0.807);
+}
+
+

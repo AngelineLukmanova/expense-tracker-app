@@ -1,0 +1,154 @@
+.AddItemForm-container{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 3em 0;
+}
+
+.AddItemForm-form{
+    padding: 1em; 
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 auto;
+    color: #0077b6;  
+    box-shadow: 1px 0px 13px 1px  #0076b663;
+}
+
+.AddItemForm-form form{
+    margin: 1em auto;
+    align-items: flex-start;
+    width: 90%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.AddItemForm-form p{
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 1em;
+}
+
+.AddItemForm-form form input,
+.AddItemForm-form form select{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    padding-left: 0.8em;
+    color: #026296;
+    border:1px solid #0077b6; 
+}
+
+.AddItemForm-form form input{
+    -webkit-appearance: none;
+}
+
+.AddItemForm-form form input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+}
+
+.AddItemForm-form form select{
+    text-transform: capitalize;
+    width: 100%;     
+}
+
+
+.AddItemForm-form form input::placeholder{
+    color: #026296;
+}
+
+.AddItemForm-form form input:hover::-webkit-input-placeholder { 
+    background-color: #0077b6;
+    color:white;
+}
+
+  .AddItemForm-form form input:focus,
+  .AddItemForm-form form select:focus{
+    outline: none;
+}
+
+.AddItemForm-form form input:hover,
+.AddItemForm-form form select:hover,
+.AddItemForm-form button:hover:enabled{
+    background-color: #0077b6;
+    color:white;
+}
+
+.AddItemForm-form button{
+    align-self: center;
+    padding: 5px 35px;
+    border-radius: 20px;
+    margin-top: 1.2em;
+    font-size: 1.1em;
+}
+
+.AddItemForm-form button:disabled{
+    color: #0076b663;
+    border: 1px solid #0076b663;  
+}
+
+.AddItemForm-form button{
+    color: #0077b6;
+    border: 1px solid #0077b6;
+    background-color: white;
+}
+
+
+@media (min-width: 480px){
+    .AddItemForm-form{
+        width: 80%;
+    }
+    .AddItemForm-form form input{
+        width: 91%;
+    }
+}
+  
+  @media (min-width: 768px){
+ 
+    .AddItemForm-form{
+        width: 80%;
+    }
+      .AddItemForm-form form input{
+        width: 96%;
+    } 
+  }
+  
+  @media (min-width: 1024px){
+ 
+    .AddItemForm-form{
+        width: 60%;
+    }
+    .AddItemForm-form form input{
+        width: 91%;
+    }
+  }
+  
+  @media (min-width: 1200px){
+
+    .AddItemForm-form{
+        width: 50%;
+    }
+    .AddItemForm-form form input{
+        width: 96%;
+    }
+  }
+
+  @media (min-width: 2000px){
+
+    .AddItemForm-form{
+        width: 40%;
+    }
+    .AddItemForm-form form input{
+        width: 96.5%;
+      }
+    }
+
+  

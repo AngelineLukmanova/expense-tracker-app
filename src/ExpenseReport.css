@@ -1,0 +1,116 @@
+.Expense-report{
+    display: flex;
+    margin: 0 auto;
+    width: 93%;
+    margin-top: 2em;
+    text-transform: capitalize;
+}
+
+.Doughnut-chart{
+    font-size: 0.9em;
+    width: 38%;
+    margin-right: 3%;
+    text-shadow: 2px 2px 5px #0207162c;
+}
+
+.sortBy:hover{
+    cursor: pointer;
+}
+
+.Expense-report caption {
+   letter-spacing: 0px;
+    font-size: 1.85em;
+    font-weight: 500;
+    padding-bottom: 0.9em;
+  
+    caption-side: top;
+    text-shadow: 2px 2px 5px #0207162c;
+}
+
+.Expense-report table {
+    width: 62%;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.Expense-report td,
+.Expense-report th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+}
+
+.Expense-report td {
+    text-align: center;
+}
+
+#score{
+    text-align: right;
+    padding-right: 1em;
+}
+
+  .Expense-report th {
+    color:#ffffff;;
+    background-color: #148ac9f5;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding:0.7em;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+  
+  .Expense-report tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#51566b;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+   
+  .Expense-report tr:hover td {
+    background-color: #01538065;
+    color:#FFFFFF;
+  
+}
+   
+  .Expense-report tr:first-child {
+    border-top:none;
+}
+  
+  .Expense-report tr:last-child {
+    border-bottom:none;
+}
+   
+  .Expense-report tr:nth-child(odd) td {
+    background-color:#f3f3f3f5;
+}
+   
+  .Expense-report tr:nth-child(odd):hover td {
+    background-color: #01538065;
+}
+
+  .Expense-report tr td:last-child{
+      text-align: end;
+}
+  
+  .Expense-report td {
+    background:#FFFFFF;
+    padding:20px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:1.2em;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+    max-width: 12em;
+    min-width: 5em;
+}
+  
+#totalAmount{
+   font-size: 1.2em;
+}

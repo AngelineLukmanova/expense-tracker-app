@@ -1,0 +1,114 @@
+.Dashboard{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+
+.Dashboard-category{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    box-shadow: 10px 10px 11px -8px rgba(0,0,0,0.35);
+    margin-bottom: 2.5rem;
+    width: 22%;
+    border-top: 7px solid #0077b6; 
+    min-height: 310px;
+   
+    background-color: white;
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    
+
+}
+
+
+
+.Dashboard-category ul{
+    width: 85%;
+    padding: 0;
+    text-transform: capitalize;
+    
+} 
+
+
+.Dashboard-category li{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5em;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.089) ; */
+    text-align: start;
+
+    white-space: pre-wrap;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+#amount{
+    white-space: no-wrap;
+    
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+
+.Dashboard-category a{
+ 
+
+    text-decoration: 0;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: #0077b6; 
+   
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+}
+
+
+.Dashboard-category a {
+    text-decoration: underline 0.14em rgba(240, 11, 11, 0);
+    transition: text-decoration-color 300ms;
+  }
+
+  .Dashboard-category a:hover {
+    text-decoration-color: #0077b6;
+  }
+  
+
+.Dashboard-category-total{
+    margin-top: auto;
+    text-align: end;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+   
+    
+}
+.Dashboard-category-total span{
+    padding-right: 1.7em;
+    padding-left: 1em;
+}
+
+.Dashboard-category-total hr{
+    width: 85%;
+    border: 0;
+    border-top: 1px dotted #8c8c8c;
+    border-bottom: 1px dotted #fff;
+}
+
+.Dashboard-category ul{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 0 1.5em;
+    margin: 0 auto;
+}
+

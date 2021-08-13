@@ -1,0 +1,47 @@
+.ItemsList{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.ItemsList-container{
+    background-color: white; 
+    border-radius: 20px;
+    padding: 2.2em 3em;
+    background: #c850c0;
+    background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+    background: linear-gradient(45deg, #4158d0, #c850c0);
+    color: white;
+    box-shadow: 10px 10px 11px -8px rgba(0,0,0,0.45); 
+}
+
+.ItemsList-table{
+    border-collapse: collapse;
+    text-transform: capitalize;
+    width: 100%;   
+}
+
+.ItemsList-table thead th{
+    font-weight: 300;
+    font-size: 2em;
+    padding-bottom: 0.8em;
+}
+
+.ItemsList-table tbody{
+    font-size: 1.3em;
+}
+
+@media (min-width: 1200px){
+    .ItemsList{
+        width: 50%;
+    }
+  }
+  
+  @media (min-width: 2000px){
+    .ItemsList{
+        width: 40%;
+    }
+  }

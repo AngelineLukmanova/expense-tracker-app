@@ -1,0 +1,67 @@
+.Item-edit-form{
+    text-align: start;
+    
+}
+.Item-edit-form form{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.145);
+    
+}
+.Item-edit-form button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 0;
+}
+
+.Item-edit-form input{
+    padding: 0.3em 0; 
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: transparent;
+    border:none;
+    border-style: none;
+    color:white;
+    
+}
+.Item-edit-form input:focus{
+    outline: none;
+    
+}
+.Item-edit-form input[type="number"]{
+     text-align: end;
+}
+
+.Item-table-row td{
+    padding: 0.3em; 
+}
+
+.Item-table-row .column1{
+    text-align: start;
+    max-width: 2em;
+ }
+
+
+.Item-table-row .column2{
+   text-align: end;
+}
+
+.Item-table-row .column3{
+   text-align: end;
+   width: 70px;
+}
+
+.Item-table-row .column4{
+   text-align: end;
+   width: 30px;
+}
+
+.Item-btn {
+    font-size: 0.9em;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 50%;
+}
+
