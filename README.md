@@ -12,7 +12,7 @@ Build using React Hooks, React Router, Context API(State management w/ useReduce
 
 ![Screen Shot 2021-08-12 at 5 32 51 PM](https://user-images.githubusercontent.com/64429543/129287856-6878bf48-7650-44a8-9cdb-9c0eb7493aea.png)
 
-![Screen Shot 2021-08-20 at 7 28 44 PM](https://user-images.githubusercontent.com/64429543/130307755-683d9df3-ca2b-400c-b6e5-9116350d37c8.png)
+![Screen Shot 2021-08-20 at 7 29 59 PM](https://user-images.githubusercontent.com/64429543/130307782-e9d0ce2e-12de-47ef-b1a3-c518a2e4b5b3.png)
 
 ![Screen Shot 2021-08-12 at 5 33 17 PM](https://user-images.githubusercontent.com/64429543/129288095-25278113-5040-405f-83f4-c13bfbb7ef44.png)
 
